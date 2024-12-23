@@ -4,7 +4,6 @@ body{
 }
 .nav-container{
     position: relative;
-    background-color: aliceblue;
     overflow: hidden;
     transition: height 250ms ease-in-out;
 }
@@ -32,8 +31,11 @@ h1{
     padding: 1.5rem 0;
     list-style: none;
     text-align: center;
+    background-color: aliceblue;
+    // border-bottom: 2px solid #1e83ff;
     margin: 0;
     transition: transform 250ms ease-in-out;
+    position: relative;
 }
 li+li{
     padding-top: .5rem;
@@ -97,4 +99,14 @@ li+li{
 
 .nav-hidden {
     transform: translateX(-100%);  /* Slides menu off-screen to the left */
+}
+
+.nav-list::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: linear-gradient(to right, #94daff, #1e83ff);
 }
