@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N Rokita Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/navStyle.css">
+    <link rel="stylesheet" href="styles/cardsStyle.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -13,14 +18,51 @@
             <span class="hamburger"></span>
         </button>
         <ul class="nav-list">
-            <li><h1>N. Rokita</h1></li>
-            <li><h1>Projects</h1></li>
-            <li><a href="https://www.linkedin.com/in/nrokita/" target="_blank" rel="noopener noreferrer"><img class="LinkedIn-logo" src="Logos/LinkedIn-Blue-128@2x.png" alt="LinkedIn logo"><img src="external-link.svg"></a></li>
-            <li><a href="https://github.com/nro22?tab=repositories" target="_blank" rel="noopener noreferrer"><img class="GitHub-logo" src="Logos/GitHub_Logo.png" alt="GitHub logo"><img class="external2"src="external-link.svg"></a></li>
+            <!--<li class="navItem"><h2>N. Rokita</h2></li>-->
+            <li class="navItem">
+                <h3>Projects</h3>
+            </li>
+            <li class="navItem">
+                <a href="https://www.linkedin.com/in/nrokita/" target="_blank" rel="noopener noreferrer">
+                    <img class="LinkedIn-logo" src="images/LinkedIn-Blue-128@2x.png" alt="LinkedIn logo">
+                    <img src="images/external-link.svg">
+                </a>
+            </li>
+            <li class="navItem">
+                <a href="https://github.com/nro22?tab=repositories" target="_blank" rel="noopener noreferrer">
+                    <img class="GitHub-logo" src="images/GitHub_Logo.png" alt="GitHub logo">
+                    <img class="external2"src="images/external-link.svg">
+                </a>
+            </li>
+            <li class="navItem cv">
+                <h3>Resume</h3>
+                <a href="cvFiles/resume.pdf" download>
+                    <img src="images/download.svg" alt="">
+                </a>
+            </li>
+            <li class="navItem cv">
+                <h3>Cover Letter</h3>
+                <a href="cvFiles/coverLetter.pdf" download>
+                    <img src="images/download.svg" alt="">
+                </a>
+            </li>
         </ul>
     </nav>
     <section class="cards">
-        
+        <img class="face" src="yousef-espanioly-Wd9JdX7a7ls-unsplash.jpg" alt="">
+        <div class="card firstCard">
+            <ul class="firstCardList">
+                <li><h4>Nick Rokita</h4></li>
+                <li>Chicago, IL (USA)</li>
+                <li>Open to relocation</li>
+            </ul>
+        </div>
+        <div class="card">
+            <p>Bachelor of Science in Computer Science, Cum Laude</p>
+        </div>
+        <div class="card thirdCard">
+            <p>I'm a developer specializing in front end web development. I'm also acquiring skills and knowledge to specialize in back-end and full-stack development.</p>
+        </div>
     </section>
 </body>
 </html>
