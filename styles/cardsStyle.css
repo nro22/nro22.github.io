@@ -22,7 +22,6 @@
 }
 
 .card{
-    grid-column: span 2;
     border: 1px solid blue;
     border-radius: 5px;
     padding: .5rem;
@@ -32,8 +31,7 @@
     margin: 0;
 }
 .firstCard{
-    
-    
+    grid-column: span 2;
     display: flex;
     justify-content: center;
 }
@@ -41,4 +39,28 @@
 .firstCard ul{
     display: flex;
     flex-direction: column;
+}
+
+.secondCard{
+    grid-column: span 2;
+}
+
+.thirdCard{
+    grid-column: span 4;
+}
+.fourthCard{
+    grid-column: span 4;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    text-align: center;
+
+}
+.logo{
+    width: 32px;
+    height: auto;
 }

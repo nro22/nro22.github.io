@@ -34,9 +34,6 @@ h1{
     transition: transform 250ms ease-in-out;
     position: relative;
 }
-.navItem + .navItem{
-    padding-top: .5rem;
-}
 .cv{
     display: flex;
     justify-content: center;
@@ -125,8 +122,19 @@ h3 + a{
         justify-content: space-around;
         align-items: center;
     }
-    .nav-list li{
+    /* .nav-list li{
         margin: 0;
         padding: 0;
+    } */
+    /* .navItem{
+        padding-top: .5rem;
+    } */
+    .gitNav{
+        padding-top: 8px;
+    }
+}
+@media (max-width: 699px){
+    .navItem + .navItem{
+        padding-top: .5rem;
     }
 }
