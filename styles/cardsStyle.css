@@ -1,16 +1,11 @@
 .cards{
-    display: grid;
-    /*
-    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
-    */
-    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
-    column-gap: 1rem;
-    row-gap: 1rem;
-    
-    /*
-    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
-    */
-    margin: 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 1rem;
+    /* row-gap: 1rem;
+    margin: 0rem 2rem 0rem; */
 }
 
 .face{
@@ -18,9 +13,7 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
-    grid-area: 1/1;
-    align-self: center;
-    justify-self: center;
+
 }
 
 .card{
@@ -33,36 +26,24 @@
     margin: 0;
 }
 .firstCard{
-    grid-column: span 2;
     display: flex;
-    justify-content: center;
-    justify-self: center;
+    max-width: 340px;
+    /* justify-content: space-around; */
 }
 
-.firstCard ul{
+.firstCardList{
+    margin-left: 2rem;
     display: flex;
     flex-direction: column;
-}
-
-.secondCard{
-    grid-column: span 4;
-}
-
-.thirdCard{
-    grid-column: span 4;
-}
-.fourthCard{
-    grid-column: span 4;
 }
 
 .skills{
     display: flex;
     /* flex-direction: column; */
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .skill{
     text-align: center;
-
 }
 .logo{
     width: 32px;
