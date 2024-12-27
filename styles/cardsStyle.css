@@ -53,3 +53,26 @@
     width: 28px;
     height: auto;
 }
+
+
+/* @media (min-width: 500px) {
+    .cards{
+        display: grid;
+        max-width: none;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        align-items: center;
+    }
+    .card{
+        grid-column: span 5;
+    }
+    .thirdCard{
+        grid-column: 6/7;
+        grid-row: 1/4;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+} */
