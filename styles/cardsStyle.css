@@ -19,7 +19,7 @@
 .card{
     /* border: 1px solid blue;
     border-radius: 5px; */
-    padding: .5rem;
+    padding: 1rem .5rem;
     /* min-width: min(200px,1fr); */
 }
 .card p{
@@ -53,62 +53,3 @@
     width: 28px;
     height: auto;
 }
-/*Animation styles*/
-.scroller{
-    /* max-width: 600px; */
-}
-.scroller-content{
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.scroller[data-animated="true"]{
-    overflow: hidden;
-    -webkit-mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
-    mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
-}
-.scroller[data-animated="true"] .scroller-content{
-    flex-wrap: nowrap;
-    width: max-content;
-    animation: scroll 5s linear infinite;
-}
-@keyframes scroll{
-    to{
-        transform: translateX(calc(-50% - 10px));
-    }
-}
-/* .thirdCard{
-    overflow: hidden;
-    padding: .5rem 0;
-    margin: 0 .5rem;
-}
-
-.skills{
-    animation: scroll 5s linear infinite;
-}
-@keyframes scroll{
-    to{
-        transform: translateX(-100%);
-    }
-} */
-
-/* @media (min-width: 500px) {
-    .cards{
-        display: grid;
-        max-width: none;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        align-items: center;
-    }
-    .card{
-        grid-column: span 5;
-    }
-    .thirdCard{
-        grid-column: 6/7;
-        grid-row: 1/4;
-    }
-    .skills{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-} */
