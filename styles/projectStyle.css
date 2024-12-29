@@ -1,15 +1,25 @@
-.projects{
-    background-color: aliceblue;
-}
 .project{
-    border: 1px solid blue;
+    border: 1px solid #a5b6cb;
+    border-radius: 15px;
+    padding: 1rem;
 }
 
 .project+.project{
     margin-top: 2rem;
 }
-
+.projectDescriptor *{
+    padding-bottom: .25rem;
+}
+.projectDescriptor{
+    margin-bottom: 1rem;
+}
 .projectTitle,
 .repository{
     display: flex;
+}
+
+.projectImage{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
