@@ -1,9 +1,8 @@
 .cards{
     display: flex;
     flex-direction: column;
-    max-width: 600px;
-    margin: auto;
-    padding: 0 1rem;
+    
+    
     /* row-gap: 1rem;
     margin: 0rem 2rem 0rem; */
 }
@@ -19,7 +18,7 @@
 .card{
     /* border: 1px solid blue;
     border-radius: 5px; */
-    padding: 1rem .5rem;
+    padding: 1rem 0;
     /* min-width: min(200px,1fr); */
 }
 .card p{

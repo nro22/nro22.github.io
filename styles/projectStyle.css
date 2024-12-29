@@ -1,0 +1,15 @@
+.projects{
+    background-color: aliceblue;
+}
+.project{
+    border: 1px solid blue;
+}
+
+.project+.project{
+    margin-top: 2rem;
+}
+
+.projectTitle,
+.repository{
+    display: flex;
+}
