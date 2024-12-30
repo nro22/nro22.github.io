@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     
-    
     /* row-gap: 1rem;
     margin: 0rem 2rem 0rem; */
 }
@@ -14,8 +13,10 @@
     object-fit: cover;
 
 }
-
 .card{
+    margin: 0 1rem;
+}
+.card + .card{
     padding-top: 2rem;
 }
 .card p{
