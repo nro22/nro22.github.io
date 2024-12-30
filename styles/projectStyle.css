@@ -17,7 +17,16 @@
 .repository{
     display: flex;
 }
-
+.projectTitle h3{
+    color: #824936;
+}
+.repository h4{
+    color: #9d9d9d;
+}
+.repository img{
+    width: 16px;
+    height: auto;
+}
 .projectImage{
     max-width: 100%;
     height: auto;

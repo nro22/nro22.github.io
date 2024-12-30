@@ -29,9 +29,21 @@ section{
     max-width: 600px;
     /* padding: 0 1rem; */
     margin: 0 auto;
+    padding: 0 1rem 4rem;
+    background-color: #ffffff;
+}
+p{
+    color: #824936;
 }
 footer{
-    background-color: lightgrey;
+    background-color: #d3d3d3;
     font-size: 1rem;
     padding: .5rem 2rem;
+}
+
+@media (min-width: 700px){
+    body{
+        background: linear-gradient(to bottom right, #fff, #a1d2ffc3);
+        background-attachment: fixed;
+    }
 }

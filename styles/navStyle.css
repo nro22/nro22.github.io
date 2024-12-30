@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     transition: height 250ms ease-in-out;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 .nav-container.collapsed {
     height: 4rem;
