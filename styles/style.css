@@ -30,8 +30,20 @@ section{
     margin: 0 auto;
     background-color: #ffffff;
 }
+section h2{
+    padding-left: 1rem;
+    color: #012858;
+    margin: 4rem 0 1rem;
+}
 .nav-container, section{
     margin-bottom: 1.5rem;
+}
+.course-list{
+    list-style:circle;
+    margin-left: 2rem;
+}
+.course-list > *{
+    /* margin-left: 1rem; */
 }
 footer{
     background-color: #d3d3d3;

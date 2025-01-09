@@ -1,3 +1,4 @@
+//hamburger menu:
 document.addEventListener('DOMContentLoaded', () => {
     const navToggle = document.querySelector('.nav-toggle');
     const navList = document.querySelector('.nav-list');
@@ -9,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navContainer.classList.toggle('collapsed');
     });
 });
+//animation:
 const scroller = document.querySelector('.scroller');
 addAnimation();
 // if (!window.matchMedia( "(prefers-reduced-motion: reduce)").matches){
@@ -24,3 +26,12 @@ function addAnimation(){
         scrollerContent.appendChild(duplicate);
     })
 }
+
+const projBtn = document.querySelector('.projectsButton');
+projBtn.addEventListener('click', (event) => {
+    event.preventDefault();
+    const projectsSection = document.querySelector('.projects');
+    if (projectsSection) {
+        projectsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+});
