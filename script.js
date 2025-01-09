@@ -10,9 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 const scroller = document.querySelector('.scroller');
-if (!window.matchMedia( "(prefers-reduced-motion: reduce)").matches){
-    addAnimation();
-}
+addAnimation();
+// if (!window.matchMedia( "(prefers-reduced-motion: reduce)").matches){
+//     addAnimation();
+// }
 function addAnimation(){
     scroller.setAttribute('data-animated',true);
     const scrollerContent = scroller.querySelector('.scroller-content');
