@@ -1,3 +1,26 @@
+.projects-header{
+    display: flex;
+    justify-content: space-between;
+}
+.projectsView button {
+    cursor: pointer;
+    border: 1px solid #a5b6cb;
+    border-radius: 5px;
+}
+
+.projectsView button:hover{
+    background-color: rgba(165, 182, 203, .75);
+}
+
+.active{
+    background-color: rgba(165, 182, 203, .75);
+    
+}
+
+/* .active{
+
+} */
+
 .projects .disclaim{
     padding: 0 1rem 1rem;
 }

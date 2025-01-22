@@ -1,4 +1,4 @@
-//hamburger menu:
+//hamburger menu script
 document.addEventListener('DOMContentLoaded', () => {
     const navToggle = document.querySelector('.nav-toggle');
     const navList = document.querySelector('.nav-list');
@@ -35,3 +35,13 @@ projBtn.addEventListener('click', (event) => {
         projectsSection.scrollIntoView({ behavior: 'smooth' });
     }
 });
+// end of hamburger menu script
+
+//Project section script
+const buttons = document.querySelectorAll('.projectsView button');
+buttons.forEach(btn => btn.addEventListener('click', function(e){
+    buttons.forEach(btn => {
+        (btn!==e.currentTarget) ? btn.classList.remove('active') : null;
+    })
+    this.classList.add('active');
+}));
