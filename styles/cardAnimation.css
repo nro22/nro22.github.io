@@ -22,21 +22,21 @@
 }
 @media (min-width: 400px){
     :root {
-        --card-gap: 30px;
+        --card-gap: 25px;
     }
 }
 @media (min-width: 450px){
     :root {
-        --card-gap: 45px;
+        --card-gap: 30px;
     }
 }
 @media (min-width: 525px){
     :root {
-        --card-gap: 55px;
+        --card-gap: 40px;
     }
 }
 @media (min-width: 615px){
     :root {
-        --card-gap: 70px;
+        --card-gap: 45px;
     }
 }
